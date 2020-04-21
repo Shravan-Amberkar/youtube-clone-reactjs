@@ -1,0 +1,14 @@
+.searchbar-wrap{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.searchbar-wrap .form-control, .searchbar-wrap .form-control:hover, .searchbar-wrap .form-control:active , .searchbar-wrap .form-control:focus{
+  border:0;
+  outline: none;
+  border-radius: 0;
+  border-bottom: 3px solid black;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+
+}
