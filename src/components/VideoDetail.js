@@ -10,12 +10,12 @@ const  VideoDetail = ({ video }) =>{
   return (
     <React.Fragment>
     <div className = "video-iframe">
-    <iframe frameborder= "0" height = "100%" title= "Video Player" src = {videoSrc} />
+    <iframe frameBorder= "0" height = "100%" width = "100%" title= "Video Player" src = {videoSrc} />
     </div>
     <div className = "video-iframe-text-content">
-    <div>{video.snippet.title} - {video.snippet.channelTitle}</div>
-    <div>{video.snippet.description} </div>
-    <div>{video.snippet.channelTitle}</div>
+    <div className = "video-iframe-text-1">{video.snippet.title} - {video.snippet.channelTitle}</div>
+    <div className = "video-iframe-text-2">{video.snippet.description} </div>
+    
     </div>
     </React.Fragment>
 
